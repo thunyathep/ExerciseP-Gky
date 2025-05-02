@@ -8,7 +8,7 @@ import "./index.css";
 
 function Exercise1() {
   const [isLike, setIsLike] = useState(false);
-  const [likes, setLikes] = useState(0);
+  const [likes, setLikes] = useState(10);
 
   function handleOnLike() {
     setIsLike(!isLike);
